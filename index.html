@@ -1,710 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="CS-513 Web Programming assignment: evaluation and proposed redesign of Daraz Pakistan."
-    />
-    <title>Daraz Website Evaluation | CS-513</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="topbar">
-      <a class="brand" href="#home"
-        ><span class="brand-mark">D</span
-        ><span>Daraz<span class="brand-light"> Evaluation</span></span></a
-      >
-      <button
-        class="menu-toggle"
-        id="menuToggle"
-        aria-label="Open navigation"
-        aria-expanded="false"
-      >
-        ☰
-      </button>
-      <nav id="nav">
-        <a href="#home">Home</a><a href="#introduction">Introduction</a
-        ><a href="#structure">Structure</a> <a href="#design">Design</a
-        ><a href="#responsive">Responsive</a
-        ><a href="#interactive">Interactive</a>
-        <a href="#architecture">Architecture</a><a href="#redesign">Redesign</a
-        ><a href="#evidence">Evidence</a><a href="#conclusion">Conclusion</a>
-      </nav>
-    </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CS-513 Web Programming assignment: evaluation and proposed redesign of Daraz Pakistan.">
+<title>Daraz Website Evaluation | CS-513</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">D</span><span>Daraz<span class="brand-light"> Evaluation</span></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#introduction">Introduction</a><a href="#structure">Structure</a>
+    <a href="#design">Design</a><a href="#responsive">Responsive</a><a href="#interactive">Interactive</a>
+    <a href="#architecture">Architecture</a><a href="#redesign">Redesign</a><a href="#evidence">Evidence</a><a href="#conclusion">Conclusion</a>
+  </nav>
+</header>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-copy">
-          <p class="eyebrow">CS-513 · WEB PROGRAMMING</p>
-          <h1>Evaluation &amp; Redesign of a Real Website</h1>
-          <p class="lead">
-            A practical study of Daraz Pakistan: its purpose, navigation, visual
-            design, responsiveness, interactive features and a proposed
-            user-friendly redesign.
-          </p>
-          <div class="hero-meta">
-            <span>Individual Assignment</span
-            ><span>Selected website: Daraz Pakistan</span>
-          </div>
-          <a class="primary-btn" href="#introduction"
-            >Explore the report <span>→</span></a
-          >
-        </div>
-        <div class="hero-art" aria-label="Illustration of online shopping">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="shop-card">
-            <div class="shop-head">
-              <span>daraz</span><span class="cart">🛒</span>
-            </div>
-            <div class="search-pill">⌕ &nbsp; Search products...</div>
-            <div class="product-row">
-              <div class="product-icon">📱</div>
-              <div>
-                <b>Smartphone</b><small>Product details &amp; price</small>
-              </div>
-            </div>
-            <div class="product-row">
-              <div class="product-icon">🎧</div>
-              <div><b>Accessories</b><small>Browse more products</small></div>
-            </div>
-            <div class="shop-foot">SHOP • COMPARE • DISCOVER</div>
-          </div>
-          <div class="float-tag tag-one">Responsive design</div>
-          <div class="float-tag tag-two">User experience</div>
-        </div>
-      </section>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">CS-513 · WEB PROGRAMMING</p>
+    <h1>Evaluation &amp; Redesign of a Real Website</h1>
+    <p class="lead">A practical study of Daraz Pakistan: its purpose, navigation, visual design, responsiveness, interactive features and a proposed user-friendly redesign.</p>
+    <div class="hero-meta"><span>Individual Assignment</span><span>Selected website: Daraz Pakistan</span></div>
+    <a class="primary-btn" href="#introduction">Explore the report <span>→</span></a>
+  </div>
+  <div class="hero-art" aria-label="Illustration of online shopping">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="shop-card"><div class="shop-head"><span>daraz</span><span class="cart">🛒</span></div><div class="search-pill">⌕ &nbsp; Search products...</div>
+      <div class="product-row"><div class="product-icon">📱</div><div><b>Smartphone</b><small>Product details &amp; price</small></div></div>
+      <div class="product-row"><div class="product-icon">🎧</div><div><b>Accessories</b><small>Browse more products</small></div></div>
+      <div class="shop-foot">SHOP • COMPARE • DISCOVER</div></div>
+    <div class="float-tag tag-one">Responsive design</div><div class="float-tag tag-two">User experience</div>
+  </div>
+</section>
 
-      <section class="student-strip">
-        <div><small>STUDENT</small><strong>Muhammad Fahad Razzaq</strong></div>
-        <div><small>COURSE</small><strong>CS-513 Web Programming</strong></div>
-        <div><small>WEBSITE STUDIED</small><strong>Daraz Pakistan</strong></div>
-        <div>
-          <small>ROLL NO. / SECTION</small><strong>To be completed</strong>
-        </div>
-      </section>
+<section class="student-strip">
+  <div><small>STUDENT</small><strong>Muhammad Fahad Razzaq</strong></div>
+  <div><small>COURSE</small><strong>CS-513 Web Programming</strong></div>
+  <div><small>WEBSITE STUDIED</small><strong>Daraz Pakistan</strong></div>
+  <div><small>REGISTRATION NO.</small><strong>2024-AG-4089</strong></div>
+</section>
 
-      <section class="section" id="introduction">
-        <div class="section-heading">
-          <p class="eyebrow">01 · OVERVIEW</p>
-          <h2>Introduction &amp; Website Purpose</h2>
-          <p>
-            This report examines an online shopping website and one specific
-            user task.
-          </p>
-        </div>
-        <div class="two-col">
-          <article class="panel">
-            <h3>About the selected website</h3>
-            <p><b>Website:</b> Daraz Pakistan</p>
-            <p>
-              <b>URL:</b>
-              <a href="https://www.daraz.pk/" target="_blank" rel="noopener"
-                >https://www.daraz.pk/</a
-              >
-            </p>
-            <p>
-              Daraz is an online shopping platform where customers can browse
-              product categories, search for items, review product information
-              and place orders. Sellers can also display products through the
-              platform.
-            </p>
-            <p>
-              <b>Main purpose:</b> To make shopping and product discovery
-              available online.
-            </p>
-          </article>
-          <article class="panel accent-panel">
-            <h3>Intended users</h3>
-            <ul>
-              <li>Customers who want to shop online.</li>
-              <li>People comparing product prices and features.</li>
-              <li>Sellers who want to offer products online.</li>
-              <li>Users who prefer delivery rather than visiting shops.</li>
-            </ul>
-          </article>
-        </div>
-        <div class="callout">
-          <b>Reason for selection</b>
-          <p>
-            Daraz was selected because it provides useful examples of web
-            programming concepts, including search, product pages, forms,
-            filters, shopping-cart controls and responsive layouts.
-          </p>
-        </div>
-        <div class="task-card">
-          <span class="number">TASK</span>
-          <div>
-            <h3>Selected user task</h3>
-            <p>
-              Find a mobile phone, check its price and product details, and add
-              it to the shopping cart.
-            </p>
-            <small
-              ><b>Expected result:</b> A user should be able to locate a
-              relevant phone, understand its details and add it to the cart
-              without unnecessary difficulty.</small
-            >
-          </div>
-        </div>
-      </section>
+<section class="section" id="introduction">
+  <div class="section-heading"><p class="eyebrow">01 · OVERVIEW</p><h2>Introduction &amp; Website Purpose</h2><p>This report examines an online shopping website and one specific user task.</p></div>
+  <div class="two-col">
+    <article class="panel"><h3>About the selected website</h3><p><b>Website:</b> Daraz Pakistan</p><p><b>URL:</b> <a href="https://www.daraz.pk/" target="_blank" rel="noopener">https://www.daraz.pk/</a></p><p>Daraz is an online shopping platform where customers can browse product categories, search for items, review product information and place orders. Sellers can also display products through the platform.</p><p><b>Main purpose:</b> To make shopping and product discovery available online.</p></article>
+    <article class="panel accent-panel"><h3>Intended users</h3><ul><li>Customers who want to shop online.</li><li>People comparing product prices and features.</li><li>Sellers who want to offer products online.</li><li>Users who prefer delivery rather than visiting shops.</li></ul></article>
+  </div>
+  <div class="callout"><b>Reason for selection</b><p>Daraz was selected because it provides useful examples of web programming concepts, including search, product pages, forms, filters, shopping-cart controls and responsive layouts.</p></div>
+  <div class="task-card"><span class="number">TASK</span><div><h3>Selected user task</h3><p>Find a mobile phone, check its price and product details, and add it to the shopping cart.</p><small><b>Expected result:</b> A user should be able to locate a relevant phone, understand its details and add it to the cart without unnecessary difficulty.</small></div></div>
+</section>
 
-      <section class="section soft" id="structure">
-        <div class="section-heading">
-          <p class="eyebrow">02 · INFORMATION ARCHITECTURE</p>
-          <h2>Website Structure &amp; Navigation</h2>
-          <p>
-            A website structure shows how its pages and sections are organized.
-          </p>
-        </div>
-        <div class="sitemap">
-          <div class="site-root">DARAZ WEBSITE</div>
-          <div class="tree-line"></div>
-          <div class="site-grid">
-            <div class="site-node">
-              <span>⌂</span><b>Home page</b
-              ><small>Categories, offers and featured products</small>
-            </div>
-            <div class="site-node">
-              <span>⌕</span><b>Search results</b
-              ><small>Products matching a search phrase</small>
-            </div>
-            <div class="site-node">
-              <span>▣</span><b>Product details</b
-              ><small>Images, price and description</small>
-            </div>
-            <div class="site-node">
-              <span>🛒</span><b>Shopping cart</b
-              ><small>Items selected by the customer</small>
-            </div>
-            <div class="site-node">
-              <span>♙</span><b>Login / Register</b
-              ><small>Account access and registration</small>
-            </div>
-            <div class="site-node">
-              <span>?</span><b>Help center</b
-              ><small>Customer support information</small>
-            </div>
-          </div>
-        </div>
-        <div class="two-col">
-          <article class="panel">
-            <h3>Navigation features to examine</h3>
-            <ul>
-              <li>Search bar and search suggestions.</li>
-              <li>Product category links.</li>
-              <li>Product cards that open detail pages.</li>
-              <li>Cart access and account links.</li>
-              <li>Help and customer-support links.</li>
-            </ul>
-          </article>
-          <article class="panel">
-            <h3>Steps for the selected task</h3>
-            <ol>
-              <li>Open Daraz.</li>
-              <li>Search for a mobile phone.</li>
-              <li>Review the search results.</li>
-              <li>Open a product page.</li>
-              <li>Check price and details.</li>
-              <li>Select Add to Cart.</li>
-              <li>Open the cart and check the item.</li>
-            </ol>
-          </article>
-        </div>
-        <div class="callout warning">
-          <b>Evaluation note</b>
-          <p>
-            During the live website investigation, record any confusing labels,
-            broken links, unnecessary steps or navigation difficulties you
-            actually observe. Do not report an issue as a fact unless you have
-            checked it.
-          </p>
-        </div>
-      </section>
+<section class="section soft" id="structure">
+  <div class="section-heading"><p class="eyebrow">02 · INFORMATION ARCHITECTURE</p><h2>Website Structure &amp; Navigation</h2><p>A website structure shows how its pages and sections are organized.</p></div>
+  <div class="sitemap">
+    <div class="site-root">DARAZ WEBSITE</div><div class="tree-line"></div>
+    <div class="site-grid">
+      <div class="site-node"><span>⌂</span><b>Home page</b><small>Categories, offers and featured products</small></div>
+      <div class="site-node"><span>⌕</span><b>Search results</b><small>Products matching a search phrase</small></div>
+      <div class="site-node"><span>▣</span><b>Product details</b><small>Images, price and description</small></div>
+      <div class="site-node"><span>🛒</span><b>Shopping cart</b><small>Items selected by the customer</small></div>
+      <div class="site-node"><span>♙</span><b>Login / Register</b><small>Account access and registration</small></div>
+      <div class="site-node"><span>?</span><b>Help center</b><small>Customer support information</small></div>
+    </div>
+  </div>
+  <div class="two-col">
+    <article class="panel"><h3>Navigation features to examine</h3><ul><li>Search bar and search suggestions.</li><li>Product category links.</li><li>Product cards that open detail pages.</li><li>Cart access and account links.</li><li>Help and customer-support links.</li></ul></article>
+    <article class="panel"><h3>Steps for the selected task</h3><ol><li>Open Daraz.</li><li>Search for a mobile phone.</li><li>Review the search results.</li><li>Open a product page.</li><li>Check price and details.</li><li>Select Add to Cart.</li><li>Open the cart and check the item.</li></ol></article>
+  </div>
+  <div class="callout warning"><b>Evaluation note</b><p>During the live website investigation, record any confusing labels, broken links, unnecessary steps or navigation difficulties you actually observe. Do not report an issue as a fact unless you have checked it.</p></div>
+</section>
 
-      <section class="section" id="design">
-        <div class="section-heading">
-          <p class="eyebrow">03 · VISUAL REVIEW</p>
-          <h2>Visual Design Evaluation</h2>
-          <p>
-            Visual design includes colour, typography, spacing, imagery and the
-            arrangement of information.
-          </p>
-        </div>
-        <div class="feature-grid">
-          <article class="feature">
-            <div class="feature-icon orange">◒</div>
-            <h3>Colour &amp; contrast</h3>
-            <p>
-              Observe the orange and white brand presentation. Check whether
-              text and buttons have enough contrast and whether highlighted
-              areas compete for attention.
-            </p>
-          </article>
-          <article class="feature">
-            <div class="feature-icon blue">Aa</div>
-            <h3>Typography</h3>
-            <p>
-              Check whether product names, prices, labels and descriptions are
-              readable at normal viewing size.
-            </p>
-          </article>
-          <article class="feature">
-            <div class="feature-icon purple">▤</div>
-            <h3>Spacing &amp; alignment</h3>
-            <p>
-              Look for consistent gaps between product cards, headings, images
-              and page sections.
-            </p>
-          </article>
-          <article class="feature">
-            <div class="feature-icon green">▧</div>
-            <h3>Images &amp; icons</h3>
-            <p>
-              Product images should be clear and relevant. Icons should be
-              recognizable and understandable.
-            </p>
-          </article>
-          <article class="feature">
-            <div class="feature-icon yellow">☷</div>
-            <h3>Consistency</h3>
-            <p>
-              Compare multiple pages to see whether navigation, buttons and
-              typography follow a consistent visual style.
-            </p>
-          </article>
-          <article class="feature">
-            <div class="feature-icon pink">↗</div>
-            <h3>Visual hierarchy</h3>
-            <p>
-              Check whether the most important information, such as product
-              title and price, is easy to notice.
-            </p>
-          </article>
-        </div>
-        <h3 class="subheading">
-          Five observations to verify on the live website
-        </h3>
-        <div class="observation-cards">
-          <div>
-            <b>01 · Colour</b>
-            <p>
-              Check whether orange highlights important actions clearly. Too
-              many highlighted elements may distract users.
-            </p>
-            <small>Possible improvement: use emphasis selectively.</small>
-          </div>
-          <div>
-            <b>02 · Text size</b>
-            <p>
-              Check whether product details and labels are readable on desktop
-              and mobile.
-            </p>
-            <small
-              >Possible improvement: maintain comfortable text sizes.</small
-            >
-          </div>
-          <div>
-            <b>03 · Product images</b>
-            <p>Check whether product photos are clear and show useful views.</p>
-            <small
-              >Possible improvement: provide consistent, high-quality
-              images.</small
-            >
-          </div>
-          <div>
-            <b>04 · Spacing</b>
-            <p>Check whether product cards and sections feel crowded.</p>
-            <small>Possible improvement: use consistent spacing.</small>
-          </div>
-          <div>
-            <b>05 · Price visibility</b>
-            <p>
-              Check whether the current price is easy to find beside the product
-              information.
-            </p>
-            <small
-              >Possible improvement: give price information a clear
-              position.</small
-            >
-          </div>
-        </div>
-        <div class="wireframe-block">
-          <h3>Existing homepage sketch — reference layout</h3>
-          <p>
-            Use this labelled sketch as a guide when drawing or capturing the
-            actual homepage for your report.
-          </p>
-          <div class="mock-browser">
-            <div class="browser-top">
-              <i></i><i></i><i></i><span>daraz.pk</span>
-            </div>
-            <div class="mock-header">
-              <b>daraz</b>
-              <div>Search products and brands</div>
-              <span>Account　 Cart</span>
-            </div>
-            <div class="mock-cats">
-              Categories　 Electronics　 Fashion　 Home　 Beauty　 More
-            </div>
-            <div class="mock-banner">PROMOTIONAL BANNER</div>
-            <div class="mock-products">
-              <span>Product image</span><span>Product image</span
-              ><span>Product image</span><span>Product image</span>
-            </div>
-          </div>
-        </div>
-      </section>
+<section class="section" id="design">
+  <div class="section-heading"><p class="eyebrow">03 · VISUAL REVIEW</p><h2>Visual Design Evaluation</h2><p>Visual design includes colour, typography, spacing, imagery and the arrangement of information.</p></div>
+  <div class="feature-grid">
+    <article class="feature"><div class="feature-icon orange">◒</div><h3>Colour &amp; contrast</h3><p>Observe the orange and white brand presentation. Check whether text and buttons have enough contrast and whether highlighted areas compete for attention.</p></article>
+    <article class="feature"><div class="feature-icon blue">Aa</div><h3>Typography</h3><p>Check whether product names, prices, labels and descriptions are readable at normal viewing size.</p></article>
+    <article class="feature"><div class="feature-icon purple">▤</div><h3>Spacing &amp; alignment</h3><p>Look for consistent gaps between product cards, headings, images and page sections.</p></article>
+    <article class="feature"><div class="feature-icon green">▧</div><h3>Images &amp; icons</h3><p>Product images should be clear and relevant. Icons should be recognizable and understandable.</p></article>
+    <article class="feature"><div class="feature-icon yellow">☷</div><h3>Consistency</h3><p>Compare multiple pages to see whether navigation, buttons and typography follow a consistent visual style.</p></article>
+    <article class="feature"><div class="feature-icon pink">↗</div><h3>Visual hierarchy</h3><p>Check whether the most important information, such as product title and price, is easy to notice.</p></article>
+  </div>
+  <h3 class="subheading">Five observations to verify on the live website</h3>
+  <div class="observation-cards">
+    <div><b>01 · Colour</b><p>Check whether orange highlights important actions clearly. Too many highlighted elements may distract users.</p><small>Possible improvement: use emphasis selectively.</small></div>
+    <div><b>02 · Text size</b><p>Check whether product details and labels are readable on desktop and mobile.</p><small>Possible improvement: maintain comfortable text sizes.</small></div>
+    <div><b>03 · Product images</b><p>Check whether product photos are clear and show useful views.</p><small>Possible improvement: provide consistent, high-quality images.</small></div>
+    <div><b>04 · Spacing</b><p>Check whether product cards and sections feel crowded.</p><small>Possible improvement: use consistent spacing.</small></div>
+    <div><b>05 · Price visibility</b><p>Check whether the current price is easy to find beside the product information.</p><small>Possible improvement: give price information a clear position.</small></div>
+  </div>
+  <div class="wireframe-block"><h3>Existing homepage sketch — reference layout</h3><p>Use this labelled sketch as a guide when drawing or capturing the actual homepage for your report.</p>
+    <div class="mock-browser"><div class="browser-top"><i></i><i></i><i></i><span>daraz.pk</span></div><div class="mock-header"><b>daraz</b><div>Search products and brands</div><span>Account　 Cart</span></div><div class="mock-cats">Categories　 Electronics　 Fashion　 Home　 Beauty　 More</div><div class="mock-banner">PROMOTIONAL BANNER</div><div class="mock-products"><span>Product image</span><span>Product image</span><span>Product image</span><span>Product image</span></div></div>
+  </div>
+</section>
 
-      <section class="section soft" id="responsive">
-        <div class="section-heading">
-          <p class="eyebrow">04 · MULTI-DEVICE EXPERIENCE</p>
-          <h2>Mobile Responsiveness &amp; Accessibility</h2>
-          <p>
-            Responsive design adjusts a page to different screen sizes and
-            devices.
-          </p>
-        </div>
-        <div class="device-comparison">
-          <div class="device desktop-device">
-            <div class="device-label">DESKTOP VIEW</div>
-            <div class="desktop-screen">
-              <div class="mini-top">
-                daraz　 <span>Search products...</span>　 Cart
-              </div>
-              <div class="mini-banner">Offer / banner area</div>
-              <div class="mini-cards"><i></i><i></i><i></i></div>
-            </div>
-          </div>
-          <div class="device phone-device">
-            <div class="device-label">MOBILE VIEW</div>
-            <div class="phone-frame">
-              <div class="phone-notch"></div>
-              <div class="phone-head">daraz</div>
-              <div class="phone-search">Search products...</div>
-              <div class="phone-banner">Offer</div>
-              <div class="phone-items"><i></i><i></i></div>
-              <div class="phone-nav">⌂　▦　🛒　♙</div>
-            </div>
-          </div>
-        </div>
-        <div class="two-col">
-          <article class="panel">
-            <h3>Desktop layout</h3>
-            <ul>
-              <li>More horizontal space is available.</li>
-              <li>Several product cards may fit in one row.</li>
-              <li>Navigation can display more links.</li>
-            </ul>
-          </article>
-          <article class="panel">
-            <h3>Mobile layout</h3>
-            <ul>
-              <li>Content is arranged for a narrow screen.</li>
-              <li>Fewer product cards fit in each row.</li>
-              <li>Buttons need comfortable touch areas.</li>
-            </ul>
-          </article>
-        </div>
-        <h3 class="subheading">Accessibility checks</h3>
-        <div class="check-list">
-          <p>✓ Text readability and sufficient contrast.</p>
-          <p>✓ Meaningful labels for buttons and form fields.</p>
-          <p>✓ Alternative text for informative images.</p>
-          <p>✓ Keyboard navigation and visible focus indicators.</p>
-          <p>✓ No unintended horizontal scrolling or overlapping content.</p>
-        </div>
-        <div class="callout warning">
-          <b>Testing required</b>
-          <p>
-            Compare the same Daraz page on a desktop and a mobile screen. Check
-            keyboard focus, form labels and image alternative text where
-            possible. These are investigation checks, not claims that a specific
-            accessibility defect exists.
-          </p>
-        </div>
-      </section>
+<section class="section soft" id="responsive">
+  <div class="section-heading"><p class="eyebrow">04 · MULTI-DEVICE EXPERIENCE</p><h2>Mobile Responsiveness &amp; Accessibility</h2><p>Responsive design adjusts a page to different screen sizes and devices.</p></div>
+  <div class="device-comparison">
+    <div class="device desktop-device"><div class="device-label">DESKTOP VIEW</div><div class="desktop-screen"><div class="mini-top">daraz　 <span>Search products...</span>　 Cart</div><div class="mini-banner">Offer / banner area</div><div class="mini-cards"><i></i><i></i><i></i></div></div></div>
+    <div class="device phone-device"><div class="device-label">MOBILE VIEW</div><div class="phone-frame"><div class="phone-notch"></div><div class="phone-head">daraz</div><div class="phone-search">Search products...</div><div class="phone-banner">Offer</div><div class="phone-items"><i></i><i></i></div><div class="phone-nav">⌂　▦　🛒　♙</div></div></div>
+  </div>
+  <div class="two-col">
+    <article class="panel"><h3>Desktop layout</h3><ul><li>More horizontal space is available.</li><li>Several product cards may fit in one row.</li><li>Navigation can display more links.</li></ul></article>
+    <article class="panel"><h3>Mobile layout</h3><ul><li>Content is arranged for a narrow screen.</li><li>Fewer product cards fit in each row.</li><li>Buttons need comfortable touch areas.</li></ul></article>
+  </div>
+  <h3 class="subheading">Accessibility checks</h3>
+  <div class="check-list"><p>✓ Text readability and sufficient contrast.</p><p>✓ Meaningful labels for buttons and form fields.</p><p>✓ Alternative text for informative images.</p><p>✓ Keyboard navigation and visible focus indicators.</p><p>✓ No unintended horizontal scrolling or overlapping content.</p></div>
+  <div class="callout warning"><b>Testing required</b><p>Compare the same Daraz page on a desktop and a mobile screen. Check keyboard focus, form labels and image alternative text where possible. These are investigation checks, not claims that a specific accessibility defect exists.</p></div>
+</section>
 
-      <section class="section" id="interactive">
-        <div class="section-heading">
-          <p class="eyebrow">05 · USER INTERACTION</p>
-          <h2>Forms &amp; Interactive Features</h2>
-          <p>
-            Forms collect information. Interactive controls respond to user
-            actions.
-          </p>
-        </div>
-        <div class="two-col">
-          <article class="panel">
-            <div class="panel-kicker">FORM EXAMPLE</div>
-            <h3>Login form</h3>
-            <p>
-              A login form lets an existing user access an account. Common
-              fields may include a phone number or email address and a password.
-            </p>
-            <div class="demo-form">
-              <label for="demoEmail">Email or phone</label
-              ><input
-                id="demoEmail"
-                type="text"
-                placeholder="Enter email or phone"
-              /><label for="demoPass">Password</label
-              ><input
-                id="demoPass"
-                type="password"
-                placeholder="Enter password"
-              /><button id="demoLogin" class="primary-btn" type="button">
-                Test form validation
-              </button>
-              <p id="formMessage" class="form-message" aria-live="polite">
-                Demo only — no information is sent.
-              </p>
-            </div>
-            <p>
-              <b>Validation:</b> Empty or incorrectly formatted fields may
-              produce an error. A website should also validate data on its
-              server.
-            </p>
-          </article>
-          <article class="panel">
-            <div class="panel-kicker">INTERACTIVE FEATURE 1</div>
-            <h3>Product search</h3>
-            <p>
-              <b>Action:</b> User enters a product name and starts a search.
-            </p>
-            <p>
-              <b>Page change:</b> Matching products or a no-results message are
-              displayed.
-            </p>
-            <p>
-              <b>User benefit:</b> Helps users locate products more quickly.
-            </p>
-            <p>
-              <b>Possible JavaScript role:</b> Read input, respond to the search
-              action and update the interface.
-            </p>
-          </article>
-        </div>
-        <article class="panel wide-panel">
-          <div class="panel-kicker">INTERACTIVE FEATURE 2</div>
-          <h3>Shopping cart</h3>
-          <p><b>Action:</b> User selects Add to Cart on a product page.</p>
-          <p>
-            <b>Page change:</b> The cart may update to show the selected product
-            and quantity.
-          </p>
-          <p>
-            <b>User benefit:</b> Lets customers collect products before
-            proceeding to checkout.
-          </p>
-          <p>
-            <b>Possible JavaScript role:</b> Update the visible cart state after
-            a user action.
-          </p>
-        </article>
-        <div class="callout">
-          <b>Observation versus inference</b>
-          <p>
-            Describe what you can see and test as an observation. Use phrases
-            such as “JavaScript may be used” for an explanation of possible
-            implementation. Do not claim to know Daraz's private source code.
-          </p>
-        </div>
-      </section>
+<section class="section" id="interactive">
+  <div class="section-heading"><p class="eyebrow">05 · USER INTERACTION</p><h2>Forms &amp; Interactive Features</h2><p>Forms collect information. Interactive controls respond to user actions.</p></div>
+  <div class="two-col">
+    <article class="panel"><div class="panel-kicker">FORM EXAMPLE</div><h3>Login form</h3><p>A login form lets an existing user access an account. Common fields may include a phone number or email address and a password.</p><div class="demo-form"><label for="demoEmail">Email or phone</label><input id="demoEmail" type="text" placeholder="Enter email or phone"><label for="demoPass">Password</label><input id="demoPass" type="password" placeholder="Enter password"><button id="demoLogin" class="primary-btn" type="button">Test form validation</button><p id="formMessage" class="form-message" aria-live="polite">Demo only — no information is sent.</p></div><p><b>Validation:</b> Empty or incorrectly formatted fields may produce an error. A website should also validate data on its server.</p></article>
+    <article class="panel"><div class="panel-kicker">INTERACTIVE FEATURE 1</div><h3>Product search</h3><p><b>Action:</b> User enters a product name and starts a search.</p><p><b>Page change:</b> Matching products or a no-results message are displayed.</p><p><b>User benefit:</b> Helps users locate products more quickly.</p><p><b>Possible JavaScript role:</b> Read input, respond to the search action and update the interface.</p></article>
+  </div>
+  <article class="panel wide-panel"><div class="panel-kicker">INTERACTIVE FEATURE 2</div><h3>Shopping cart</h3><p><b>Action:</b> User selects Add to Cart on a product page.</p><p><b>Page change:</b> The cart may update to show the selected product and quantity.</p><p><b>User benefit:</b> Lets customers collect products before proceeding to checkout.</p><p><b>Possible JavaScript role:</b> Update the visible cart state after a user action.</p></article>
+  <div class="callout"><b>Observation versus inference</b><p>Describe what you can see and test as an observation. Use phrases such as “JavaScript may be used” for an explanation of possible implementation. Do not claim to know Daraz's private source code.</p></div>
+</section>
 
-      <section class="section soft" id="architecture">
-        <div class="section-heading">
-          <p class="eyebrow">06 · WEB TECHNOLOGY</p>
-          <h2>Client/Server Architecture &amp; HTTP</h2>
-          <p>
-            The following is a proposed three-tier model for explaining how an
-            online shopping website can work.
-          </p>
-        </div>
-        <div class="architecture">
-          <div class="arch-box client">
-            <span>01</span>
-            <div>
-              <h3>Presentation layer</h3>
-              <p>Browser · HTML · CSS · JavaScript</p>
-              <small>Displays pages and receives user actions.</small>
-            </div>
-          </div>
-          <div class="arch-arrow">↕ Request / response</div>
-          <div class="arch-box server">
-            <span>02</span>
-            <div>
-              <h3>Application layer</h3>
-              <p>Application server · Business logic</p>
-              <small>Processes requests and applies application rules.</small>
-            </div>
-          </div>
-          <div class="arch-arrow">↕ Read / write data</div>
-          <div class="arch-box database">
-            <span>03</span>
-            <div>
-              <h3>Database layer</h3>
-              <p>Product · User · Order data</p>
-              <small>Stores and retrieves information.</small>
-            </div>
-          </div>
-        </div>
-        <h3 class="subheading">Example: searching for a mobile phone</h3>
-        <ol class="steps">
-          <li>The user enters a phone name in the browser.</li>
-          <li>The browser sends a request to the website server.</li>
-          <li>The application processes the search request.</li>
-          <li>
-            The application may retrieve matching product data from a database.
-          </li>
-          <li>The server sends a response to the browser.</li>
-          <li>The browser displays the search results.</li>
-        </ol>
-        <div class="two-col">
-          <article class="panel">
-            <h3>HTTP request and response</h3>
-            <p>
-              HTTP stands for Hypertext Transfer Protocol. A request is sent by
-              a client to a server. The server returns a response that may
-              contain the requested page or data.
-            </p>
-          </article>
-          <article class="panel">
-            <h3>GET and POST</h3>
-            <p>
-              <b>GET:</b> Commonly used to request information, such as product
-              search results.
-            </p>
-            <p>
-              <b>POST:</b> Commonly used to submit information, such as
-              registration or order data.
-            </p>
-          </article>
-        </div>
-        <div class="two-col">
-          <article class="panel">
-            <h3>Client-side validation</h3>
-            <p>
-              Checks information in the browser and can give quick feedback
-              before submission.
-            </p>
-          </article>
-          <article class="panel">
-            <h3>Server-side validation</h3>
-            <p>
-              Checks submitted information on the server. It remains important
-              even if browser validation is present.
-            </p>
-          </article>
-        </div>
-        <div class="callout">
-          <b>Cookies and sessions</b>
-          <p>
-            Cookies can store small pieces of browser information. Sessions can
-            help a website maintain information about a user's activity. Their
-            exact use in Daraz should not be assumed without reliable evidence.
-          </p>
-        </div>
-        <p class="note">
-          This diagram is a proposed educational architecture, not a verified
-          description of Daraz's internal servers, programming language or
-          database.
-        </p>
-      </section>
+<section class="section soft" id="architecture">
+  <div class="section-heading"><p class="eyebrow">06 · WEB TECHNOLOGY</p><h2>Client/Server Architecture &amp; HTTP</h2><p>The following is a proposed three-tier model for explaining how an online shopping website can work.</p></div>
+  <div class="architecture">
+    <div class="arch-box client"><span>01</span><div><h3>Presentation layer</h3><p>Browser · HTML · CSS · JavaScript</p><small>Displays pages and receives user actions.</small></div></div>
+    <div class="arch-arrow">↕ Request / response</div>
+    <div class="arch-box server"><span>02</span><div><h3>Application layer</h3><p>Application server · Business logic</p><small>Processes requests and applies application rules.</small></div></div>
+    <div class="arch-arrow">↕ Read / write data</div>
+    <div class="arch-box database"><span>03</span><div><h3>Database layer</h3><p>Product · User · Order data</p><small>Stores and retrieves information.</small></div></div>
+  </div>
+  <h3 class="subheading">Example: searching for a mobile phone</h3>
+  <ol class="steps"><li>The user enters a phone name in the browser.</li><li>The browser sends a request to the website server.</li><li>The application processes the search request.</li><li>The application may retrieve matching product data from a database.</li><li>The server sends a response to the browser.</li><li>The browser displays the search results.</li></ol>
+  <div class="two-col">
+    <article class="panel"><h3>HTTP request and response</h3><p>HTTP stands for Hypertext Transfer Protocol. A request is sent by a client to a server. The server returns a response that may contain the requested page or data.</p></article>
+    <article class="panel"><h3>GET and POST</h3><p><b>GET:</b> Commonly used to request information, such as product search results.</p><p><b>POST:</b> Commonly used to submit information, such as registration or order data.</p></article>
+  </div>
+  <div class="two-col">
+    <article class="panel"><h3>Client-side validation</h3><p>Checks information in the browser and can give quick feedback before submission.</p></article>
+    <article class="panel"><h3>Server-side validation</h3><p>Checks submitted information on the server. It remains important even if browser validation is present.</p></article>
+  </div>
+  <div class="callout"><b>Cookies and sessions</b><p>Cookies can store small pieces of browser information. Sessions can help a website maintain information about a user's activity. Their exact use in Daraz should not be assumed without reliable evidence.</p></div>
+  <p class="note">This diagram is a proposed educational architecture, not a verified description of Daraz's internal servers, programming language or database.</p>
+</section>
 
-      <section class="section" id="redesign">
-        <div class="section-heading">
-          <p class="eyebrow">07 · IMPROVEMENT PROPOSAL</p>
-          <h2>Identified Problems &amp; Proposed Redesign</h2>
-          <p>
-            Each issue must be supported by evidence from the actual
-            investigation. The items below are candidate issues to verify.
-          </p>
-        </div>
-        <div class="problem-table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Area to inspect</th>
-                <th>Possible user effect</th>
-                <th>Proposed solution</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Busy homepage</td>
-                <td>Users may take longer to find a category.</td>
-                <td>Organize sections and make key categories easy to scan.</td>
-              </tr>
-              <tr>
-                <td>Search experience</td>
-                <td>Users may struggle to locate the right item.</td>
-                <td>Provide clear suggestions and useful filters.</td>
-              </tr>
-              <tr>
-                <td>Mobile text</td>
-                <td>Small text may be difficult to read.</td>
-                <td>Use readable text sizes and spacing.</td>
-              </tr>
-              <tr>
-                <td>Product details</td>
-                <td>Important information may be hard to compare.</td>
-                <td>
-                  Group price, specifications and delivery details clearly.
-                </td>
-              </tr>
-              <tr>
-                <td>Navigation labels</td>
-                <td>New users may not understand where to go.</td>
-                <td>Use clear labels and a simple navigation structure.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h3 class="subheading">Proposed desktop wireframe</h3>
-        <div class="redesign-wire">
-          <div class="rw-header">
-            <b>SHOP</b><span>Search products, brands and categories</span
-            ><b>Cart</b>
-          </div>
-          <div class="rw-nav">Home　 Categories　 Deals　 Help</div>
-          <div class="rw-banner">
-            Discover products with a simpler shopping experience
-          </div>
-          <div class="rw-body">
-            <aside>
-              Categories<br /><br />Phones<br />Accessories<br />Home
-            </aside>
-            <div class="rw-products">
-              <div>
-                Product image<br /><b>Product title</b><br />Price &nbsp;
-                <button>View</button>
-              </div>
-              <div>
-                Product image<br /><b>Product title</b><br />Price &nbsp;
-                <button>View</button>
-              </div>
-              <div>
-                Product image<br /><b>Product title</b><br />Price &nbsp;
-                <button>View</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h3 class="subheading">Proposed mobile wireframe</h3>
-        <div class="mobile-redesign">
-          <b>SHOP</b>
-          <div>⌕ Search products</div>
-          <div class="mr-banner">Featured products</div>
-          <div class="mr-grid">
-            <span>Product 1<br />Price</span><span>Product 2<br />Price</span>
-          </div>
-          <small>Home　 Categories　 Cart　 Account</small>
-        </div>
-        <h3 class="subheading">HTML — redesigned search component</h3>
-        <pre><code>&lt;div class="search-box"&gt;
+<section class="section" id="redesign">
+  <div class="section-heading"><p class="eyebrow">07 · IMPROVEMENT PROPOSAL</p><h2>Identified Problems &amp; Proposed Redesign</h2><p>Each issue must be supported by evidence from the actual investigation. The items below are candidate issues to verify.</p></div>
+  <div class="problem-table-wrap"><table><thead><tr><th>Area to inspect</th><th>Possible user effect</th><th>Proposed solution</th></tr></thead><tbody>
+    <tr><td>Busy homepage</td><td>Users may take longer to find a category.</td><td>Organize sections and make key categories easy to scan.</td></tr>
+    <tr><td>Search experience</td><td>Users may struggle to locate the right item.</td><td>Provide clear suggestions and useful filters.</td></tr>
+    <tr><td>Mobile text</td><td>Small text may be difficult to read.</td><td>Use readable text sizes and spacing.</td></tr>
+    <tr><td>Product details</td><td>Important information may be hard to compare.</td><td>Group price, specifications and delivery details clearly.</td></tr>
+    <tr><td>Navigation labels</td><td>New users may not understand where to go.</td><td>Use clear labels and a simple navigation structure.</td></tr>
+  </tbody></table></div>
+  <h3 class="subheading">Proposed desktop wireframe</h3>
+  <div class="redesign-wire">
+    <div class="rw-header"><b>SHOP</b><span>Search products, brands and categories</span><b>Cart</b></div>
+    <div class="rw-nav">Home　 Categories　 Deals　 Help</div>
+    <div class="rw-banner">Discover products with a simpler shopping experience</div>
+    <div class="rw-body"><aside>Categories<br><br>Phones<br>Accessories<br>Home</aside><div class="rw-products"><div>Product image<br><b>Product title</b><br>Price &nbsp; <button>View</button></div><div>Product image<br><b>Product title</b><br>Price &nbsp; <button>View</button></div><div>Product image<br><b>Product title</b><br>Price &nbsp; <button>View</button></div></div></div>
+  </div>
+  <h3 class="subheading">Proposed mobile wireframe</h3>
+  <div class="mobile-redesign"><b>SHOP</b><div>⌕ Search products</div><div class="mr-banner">Featured products</div><div class="mr-grid"><span>Product 1<br>Price</span><span>Product 2<br>Price</span></div><small>Home　 Categories　 Cart　 Account</small></div>
+  <h3 class="subheading">HTML — redesigned search component</h3>
+  <pre><code>&lt;div class="search-box"&gt;
   &lt;h2&gt;Find Your Product&lt;/h2&gt;
   &lt;input type="text" id="search"
     placeholder="Search products"&gt;
@@ -713,8 +173,8 @@
   &lt;/button&gt;
   &lt;p id="result"&gt;&lt;/p&gt;
 &lt;/div&gt;</code></pre>
-        <h3 class="subheading">CSS — responsive appearance</h3>
-        <pre><code>.search-box {
+  <h3 class="subheading">CSS — responsive appearance</h3>
+  <pre><code>.search-box {
   text-align: center;
   padding: 20px;
   background: #fff;
@@ -734,8 +194,8 @@ button {
 @media (max-width: 600px) {
   input { width: 90%; }
 }</code></pre>
-        <h3 class="subheading">JavaScript pseudocode — improved search</h3>
-        <pre><code>START
+  <h3 class="subheading">JavaScript pseudocode — improved search</h3>
+  <pre><code>START
 Get search input from user
 IF input is empty
   Display "Enter product name"
@@ -747,237 +207,45 @@ ELSE
   END IF
 END IF
 STOP</code></pre>
-      </section>
+</section>
 
-      <section class="section soft" id="evidence">
-        <div class="section-heading">
-          <p class="eyebrow">INVESTIGATION EVIDENCE</p>
-          <h2>Observation Log &amp; Usability Test</h2>
-          <p>
-            Complete this section using your own observations and two real
-            volunteers. Do not invent results.
-          </p>
-        </div>
-        <h3 class="subheading">A. Observation log — at least eight entries</h3>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Page / URL</th>
-                <th>Action or check</th>
-                <th>Observed result</th>
-                <th>Your interpretation</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>To fill</td>
-                <td>Homepage</td>
-                <td>Open website</td>
-                <td>Record what you see</td>
-                <td>Write your interpretation</td>
-              </tr>
-              <tr>
-                <td>To fill</td>
-                <td>Homepage</td>
-                <td>Check categories</td>
-                <td>Record result</td>
-                <td>Write your interpretation</td>
-              </tr>
-              <tr>
-                <td>To fill</td>
-                <td>Search</td>
-                <td>Search for a phone</td>
-                <td>Record result</td>
-                <td>Write your interpretation</td>
-              </tr>
-              <tr>
-                <td>To fill</td>
-                <td>Search results</td>
-                <td>Check filters</td>
-                <td>Record result</td>
-                <td>Write your interpretation</td>
-              </tr>
-              <tr>
-                <td>To fill</td>
-                <td>Product page</td>
-                <td>Check product details</td>
-                <td>Record result</td>
-                <td>Write your interpretation</td>
-              </tr>
-              <tr>
-                <td>To fill</td>
-                <td>Product page</td>
-                <td>Check images</td>
-                <td>Record result</td>
-                <td>Write your interpretation</td>
-              </tr>
-              <tr>
-                <td>To fill</td>
-                <td>Cart</td>
-                <td>Add a product</td>
-                <td>Record result</td>
-                <td>Write your interpretation</td>
-              </tr>
-              <tr>
-                <td>To fill</td>
-                <td>Mobile view</td>
-                <td>Check responsiveness</td>
-                <td>Record result</td>
-                <td>Write your interpretation</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h3 class="subheading">B. Simple usability test — two volunteers</h3>
-        <div class="callout">
-          <b>Task instructions for both participants</b>
-          <p>
-            “Find a mobile phone on Daraz, check its price and add it to the
-            shopping cart.” Do not ask participants to share private account
-            information or complete a purchase.
-          </p>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Test detail</th>
-                <th>Participant A</th>
-                <th>Participant B</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Completed task?</td>
-                <td>Record actual result</td>
-                <td>Record actual result</td>
-              </tr>
-              <tr>
-                <td>Approximate time</td>
-                <td>Record time</td>
-                <td>Record time</td>
-              </tr>
-              <tr>
-                <td>Difficulties / mistakes</td>
-                <td>Record actual result</td>
-                <td>Record actual result</td>
-              </tr>
-              <tr>
-                <td>Suggestion</td>
-                <td>Record actual suggestion</td>
-                <td>Record actual suggestion</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="note">
-          Use Participant A and Participant B only. Do not include their names
-          or private information. Add one improvement that is supported by the
-          test results.
-        </p>
-      </section>
+<section class="section soft" id="evidence">
+  <div class="section-heading"><p class="eyebrow">INVESTIGATION EVIDENCE</p><h2>Observation Log &amp; Usability Test</h2><p>Complete this section using your own observations and two real volunteers. Do not invent results.</p></div>
+  <h3 class="subheading">A. Observation log — at least eight entries</h3>
+  <div class="table-wrap"><table><thead><tr><th>Date</th><th>Page / URL</th><th>Action or check</th><th>Observed result</th><th>Your interpretation</th></tr></thead><tbody>
+    <tr><td>To fill</td><td>Homepage</td><td>Open website</td><td>Record what you see</td><td>Write your interpretation</td></tr>
+    <tr><td>To fill</td><td>Homepage</td><td>Check categories</td><td>Record result</td><td>Write your interpretation</td></tr>
+    <tr><td>To fill</td><td>Search</td><td>Search for a phone</td><td>Record result</td><td>Write your interpretation</td></tr>
+    <tr><td>To fill</td><td>Search results</td><td>Check filters</td><td>Record result</td><td>Write your interpretation</td></tr>
+    <tr><td>To fill</td><td>Product page</td><td>Check product details</td><td>Record result</td><td>Write your interpretation</td></tr>
+    <tr><td>To fill</td><td>Product page</td><td>Check images</td><td>Record result</td><td>Write your interpretation</td></tr>
+    <tr><td>To fill</td><td>Cart</td><td>Add a product</td><td>Record result</td><td>Write your interpretation</td></tr>
+    <tr><td>To fill</td><td>Mobile view</td><td>Check responsiveness</td><td>Record result</td><td>Write your interpretation</td></tr>
+  </tbody></table></div>
+  <h3 class="subheading">B. Simple usability test — two volunteers</h3>
+  <div class="callout"><b>Task instructions for both participants</b><p>“Find a mobile phone on Daraz, check its price and add it to the shopping cart.” Do not ask participants to share private account information or complete a purchase.</p></div>
+  <div class="table-wrap"><table><thead><tr><th>Test detail</th><th>Participant A</th><th>Participant B</th></tr></thead><tbody>
+    <tr><td>Completed task?</td><td>Record actual result</td><td>Record actual result</td></tr>
+    <tr><td>Approximate time</td><td>Record time</td><td>Record time</td></tr>
+    <tr><td>Difficulties / mistakes</td><td>Record actual result</td><td>Record actual result</td></tr>
+    <tr><td>Suggestion</td><td>Record actual suggestion</td><td>Record actual suggestion</td></tr>
+  </tbody></table></div>
+  <p class="note">Use Participant A and Participant B only. Do not include their names or private information. Add one improvement that is supported by the test results.</p>
+</section>
 
-      <section class="section" id="conclusion">
-        <div class="section-heading">
-          <p class="eyebrow">08 · FINAL REFLECTION</p>
-          <h2>Conclusion &amp; Personal Reflection</h2>
-        </div>
-        <div class="conclusion-card">
-          <h3>Conclusion</h3>
-          <p>
-            Daraz is an online shopping platform that gives users a way to
-            browse products and shop online. This evaluation considers its
-            website structure, navigation, visual design, responsiveness, forms
-            and interactive features. The proposed redesign focuses on clearer
-            navigation, easier product search, readable mobile layouts and
-            well-organized product information.
-          </p>
-          <p>
-            This investigation also connects practical website behaviour with
-            web programming concepts such as client/server architecture, HTTP,
-            GET and POST, validation, cookies and sessions.
-          </p>
-        </div>
-        <div class="two-col">
-          <article class="panel">
-            <h3>Three priority improvements</h3>
-            <ol>
-              <li>Make product searching easier.</li>
-              <li>Improve mobile readability and usability.</li>
-              <li>Organize product information clearly.</li>
-            </ol>
-          </article>
-          <article class="panel">
-            <h3>Trade-off</h3>
-            <p>
-              Adding more product information may make a page longer. The
-              redesign should balance useful detail with a simple layout.
-            </p>
-          </article>
-        </div>
-        <article class="panel wide-panel">
-          <h3>Personal reflection</h3>
-          <p>
-            I learned that a good website is not only about writing HTML, CSS
-            and JavaScript. It should also be easy to use, attractive,
-            responsive and accessible. Examining a real website helped me
-            connect web programming concepts with features that users interact
-            with.
-          </p>
-          <p>
-            <b>Difficulty encountered:</b> Understanding the complete structure
-            of an online shopping website can be challenging. I addressed this
-            by examining separate pages and features one by one. (Edit this
-            reflection to describe your actual experience.)
-          </p>
-        </article>
-        <h3 class="subheading">References</h3>
-        <ol class="references">
-          <li>
-            <a href="https://www.daraz.pk/" target="_blank" rel="noopener"
-              >Daraz Pakistan — Official website</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.daraz.pk/terms-conditions"
-              target="_blank"
-              rel="noopener"
-              >Daraz — Terms and Conditions</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.daraz.pk/contact-us/"
-              target="_blank"
-              rel="noopener"
-              >Daraz — Contact Us</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://buyer-helpcenter.daraz.pk/"
-              target="_blank"
-              rel="noopener"
-              >Daraz — Buyer Help Center</a
-            >
-          </li>
-          <li>CS-513 Web Programming class notes and lectures.</li>
-        </ol>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-brand">
-        Daraz Evaluation <span>· CS-513 Web Programming</span>
-      </div>
-      <p>
-        Prepared by Muhammad Fahad Razzaq · Educational website evaluation
-        project
-      </p>
-      <a href="#home">Back to top ↑</a>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+<section class="section" id="conclusion">
+  <div class="section-heading"><p class="eyebrow">08 · FINAL REFLECTION</p><h2>Conclusion &amp; Personal Reflection</h2></div>
+  <div class="conclusion-card"><h3>Conclusion</h3><p>Daraz is an online shopping platform that gives users a way to browse products and shop online. This evaluation considers its website structure, navigation, visual design, responsiveness, forms and interactive features. The proposed redesign focuses on clearer navigation, easier product search, readable mobile layouts and well-organized product information.</p><p>This investigation also connects practical website behaviour with web programming concepts such as client/server architecture, HTTP, GET and POST, validation, cookies and sessions.</p></div>
+  <div class="two-col">
+    <article class="panel"><h3>Three priority improvements</h3><ol><li>Make product searching easier.</li><li>Improve mobile readability and usability.</li><li>Organize product information clearly.</li></ol></article>
+    <article class="panel"><h3>Trade-off</h3><p>Adding more product information may make a page longer. The redesign should balance useful detail with a simple layout.</p></article>
+  </div>
+  <article class="panel wide-panel"><h3>Personal reflection</h3><p>I learned that a good website is not only about writing HTML, CSS and JavaScript. It should also be easy to use, attractive, responsive and accessible. Examining a real website helped me connect web programming concepts with features that users interact with.</p><p><b>Difficulty encountered:</b> Understanding the complete structure of an online shopping website can be challenging. I addressed this by examining separate pages and features one by one. (Edit this reflection to describe your actual experience.)</p></article>
+  <h3 class="subheading">References</h3>
+  <ol class="references"><li><a href="https://www.daraz.pk/" target="_blank" rel="noopener">Daraz Pakistan — Official website</a></li><li><a href="https://www.daraz.pk/terms-conditions" target="_blank" rel="noopener">Daraz — Terms and Conditions</a></li><li><a href="https://www.daraz.pk/contact-us/" target="_blank" rel="noopener">Daraz — Contact Us</a></li><li><a href="https://buyer-helpcenter.daraz.pk/" target="_blank" rel="noopener">Daraz — Buyer Help Center</a></li><li>CS-513 Web Programming class notes and lectures.</li></ol>
+</section>
+</main>
+<footer><div class="footer-brand">Daraz Evaluation <span>· CS-513 Web Programming</span></div><p>Prepared by Muhammad Fahad Razzaq · Educational website evaluation project</p><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body>
 </html>
